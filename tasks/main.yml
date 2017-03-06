@@ -1,0 +1,10 @@
+---
+# tasks file for aws-cli
+- name: install python-pip
+  apt:
+    name: python-pip
+    state: latest
+
+- name: install awscli
+  pip:
+    name: awscli
