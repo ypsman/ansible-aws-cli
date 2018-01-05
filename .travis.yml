@@ -30,7 +30,7 @@ script:
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
 
   # run the role
-  - ansible-playbook tests/test.yml -i tests/inventory --check
+  - ansible-playbook tests/test.yml -i tests/inventory --connection=local
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
