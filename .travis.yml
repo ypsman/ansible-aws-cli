@@ -31,6 +31,9 @@ script:
 
   # run the role
   - ansible-playbook tests/test.yml -i tests/inventory --connection=local
+  
+  # run aws cli 
+  - aws --help
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
