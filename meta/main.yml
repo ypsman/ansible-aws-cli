@@ -5,10 +5,7 @@ galaxy_info:
   min_ansible_version: 1.2
   platforms:
   - name: Debian
-    versions:
-    - stretch
-    - jessie
-    - wheezy
+    versions: all
   - name: Ubuntu
     versions: all
   galaxy_tags:
