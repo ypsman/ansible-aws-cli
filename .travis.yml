@@ -23,7 +23,7 @@ install:
 
 
   # Install Role from Ansible Galaxy
-  - ansible-galaxy install ypsman.aws-cli
+  - ansible-galaxy install ypsman.aws_cli
 
 script:
   # Basic role syntax check
